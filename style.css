@@ -1,0 +1,571 @@
+
+/* HEADER TOP */
+nav.navbar.bckground{
+    background-color: #8F947A;
+}
+
+nav.navbar {
+    vertical-align: center;
+}
+
+
+.callNature p {
+    font-family: Bitter;
+    color: white;
+    font-style: italic; 
+    vertical-align: center;  
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.callNature{
+    display: flex;
+    align-items: center;
+    padding-top: 12px;   
+}
+
+.logosHead{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.logosHead i {
+    margin: 9px;
+    color: rgba(220, 220, 220, 0.947);
+}
+
+/*i.fa:hover{
+    color: white;
+}*/
+
+i.fa1:hover{
+    color: white;
+}
+
+/* Menu avec le Logo du site*/
+
+.natLogo {
+    padding-left: 6%;
+}
+
+.menuLogo ul {
+    padding-right: 90px;
+}
+
+/* Background TOP*/
+.backgroundTop {
+    background-image: url("images/background.jpg");
+    
+    height: 600px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 200px;
+    
+}
+
+.topTitle {
+    width: 75%;
+}
+.backgroundTop h1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    padding-top: 220px;
+    
+    /*padding-left: 20%;
+    padding-right: 20%;*/
+
+}
+
+.boutonOrange1 {
+    background-color: #F49460;
+    border: 1px solid #F49460;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.boutonOrange1:hover {
+    background-color:#8F947A;
+    border: 1px solid #8F947A;
+}
+
+/* Partie presentation*/
+.presentation {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.card-body{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top:  10%;
+    padding-bottom: 10%;
+    
+}
+
+.card-body i {
+    font-size: 2.3em;
+    color: #8F947A;
+}
+
+.card-body h5{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.card-body p {
+    font-family: Bitter;
+}
+
+.card-body hr{
+    border: 2px solid #8F947A;
+    width: 10%;
+}
+
+.lisPreso{
+    padding-top: 20px;
+}
+
+.presentation .card{
+    border: none;
+}
+
+
+
+/* Partie WHY NATURE*/
+
+.whyNature{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+        margin-top: 120px;
+    
+  
+}
+.nature{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.col-lg-6 img {
+    width:100%;
+}
+
+.nature {
+    width:auto;
+}
+
+.nature h2 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding-top: 10%;
+}
+.nature p{
+    font-family: Bitter;
+}
+
+.nature h2 p  {
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.boutonOrange2 {
+    background-color: #F49460;
+    border: 1px solid #F49460;
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    
+   
+}
+
+button.boutonOrange2:hover {
+    background-color:#8F947A;
+    border: 1px solid green;
+}
+
+.boutonOrangeDiv2{
+    display: flex;
+    justify-content: left;
+}
+
+/* OUR TEAM*/
+
+.ourTeam{
+    
+    background-image: linear-gradient(rgba(1, 75, 17, 0.45),
+    rgba(23, 112, 1, 0.37)), url(images/team-img.jpg);
+    height: 600px;
+    
+    width: auto;
+    height: auto;
+    padding-bottom: 60px;
+}
+
+
+.textTeam{
+    text-align: center;
+    padding-top: 8%;
+    
+}
+.textTeam h3 {
+    font-family: Montserrat;
+    font-weight:bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.textTeam p {
+    font-family: Bitter;
+    color: white;
+    font-style: italic;
+}
+
+.textTeam hr {
+    border: 2px solid white;
+    width: 3%;
+}
+
+.imgTeam{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: auto;
+   
+}
+
+.imgTeam img{
+    
+    border: 7px solid white;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+/* NATURE NEWS*/
+
+
+.natNews{
+    padding-top: 10%;
+    padding-bottom: 7%;
+    background-color: rgb(247, 245, 245);
+}
+
+.natNews h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: rgb(53, 21, 0);
+    text-transform: uppercase;
+    
+}
+
+.nat2{
+    padding-top: 5%;
+}
+
+.nat1 img {
+    border-radius: 50%;
+    
+}
+
+.nat2 img {
+    border-radius: 50%;
+}
+
+.nat1 h3 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: #8F947A;
+    font-weight: bold;
+}
+
+.nat1 h4 {
+    font-family: Bitter;
+    font-style: italic;
+}
+
+p.continue {
+    font-family: Bitter;
+    color: #F49460;
+    text-transform: uppercase;
+}
+
+.nat1 .col-lg-3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    
+}
+
+.nat2 .col-lg-3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    
+}
+
+
+
+.nat2 h3 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: #8F947A;
+    font-weight: bold;
+}
+
+.nat2 h4 {
+    font-family: Bitter;
+    font-style: italic;
+}
+
+.nat1{
+    background-color: white;
+    padding-top: 4%;
+    border-top: 3px  solid #8F947A;
+}
+
+.nat2 {
+    background-color: white;
+}
+
+.natNews2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.angles i {
+    text-align: center;
+    color: #8F947A;
+    font-size: 2em; 
+}
+.news {
+    padding-bottom: 5%;
+ }
+
+.continue:hover{
+    color: green;
+}
+
+/*PARTNERS*/
+
+.partners{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+
+.partners2 h3 {
+    font-family: Montserrat;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.partners2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.partners2 hr {
+    border: 2px solid rgb(211, 208, 208);
+    width: 7%;
+}
+
+.partnersLogo {
+    
+    align-items: center;
+    align-content: center;
+    margin-top: 10%;
+    
+    flex-wrap: wrap;
+}
+
+.col-lg-3 .logoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.part .col-lg-3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+
+
+
+
+/*SUPPORT*/
+
+.showSupport {
+   
+    height: 400px;
+    
+    background: linear-gradient(
+ rgba(207, 96, 5, 0.692), 
+ rgba(224, 111, 5, 0.651)
+ ), url(images/parallax-img1.jpg);
+}
+
+.boxSupport h1 {
+    font-family: Montserrat;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+.boxSupport {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.buttonEnd{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.buttonEnd button {
+    background-color: rgb(44, 44, 44);
+    font-size: 1em;
+}
+
+.buttonEnd button:hover{
+    background-color:#8F947A;
+    border: 1px solid green;
+
+}
+
+/* CONTACTS*/
+
+.contactEnd {
+    background-color: #403f3c;
+    height: 450px;
+    
+}
+
+.contactBoxEnd {
+    
+    padding-top: 11%;
+    
+}
+
+.contactBox i{
+    color: #8F947A;
+    font-size: 2em;
+    text-align: center;
+}
+
+.contactBox p {
+    padding-top: 15%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contactBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cb .col-lg-4 {
+    /*padding-left: 5%;
+    padding-right: 5%;*/
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+
+.cb {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+/*Reglages Footer*/
+
+.footerBox {
+    height: 250px;
+}
+
+.footerContaint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 9%;
+}
+
+.footerContaint hr {
+    border: 1px solid grey;
+    width: 80%;
+}
+
+.logoFoot i {
+    font-size: 2em;
+    
+}
+
+.footerContaint p {
+    font-family: Bitter;
+    font-style: italic;
+    color: grey;
+}
+
+.logoFoot {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+
+.logoFootItem {
+    margin: 5% 20%;
+}
+
+i.fa2:hover{
+    color: #F49460;
+}
+
+
+
