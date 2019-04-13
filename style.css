@@ -62,7 +62,7 @@ i.fa1:hover{
 
 /* Background TOP*/
 .backgroundTop {
-    background-image: url("images/background.jpg");
+    background-image: url("/background.jpg");
     
     height: 600px;
     background-position: center;
@@ -213,7 +213,7 @@ button.boutonOrange2:hover {
 .ourTeam{
     
     background-image: linear-gradient(rgba(1, 75, 17, 0.45),
-    rgba(23, 112, 1, 0.37)), url(images/team-img.jpg);
+    rgba(23, 112, 1, 0.37)), url(/team-img.jpg);
     height: 600px;
     
     width: auto;
@@ -434,7 +434,7 @@ p.continue {
     background: linear-gradient(
  rgba(207, 96, 5, 0.692), 
  rgba(224, 111, 5, 0.651)
- ), url(images/parallax-img1.jpg);
+ ), url(/parallax-img1.jpg);
 }
 
 .boxSupport h1 {
